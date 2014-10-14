@@ -94,6 +94,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7zt-cj-noh"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu9-ww-0Wt">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="118" width="341" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -103,6 +112,7 @@
                                 <exclude reference="Xan-Tv-lQf"/>
                                 <exclude reference="9aK-pp-VOZ"/>
                                 <exclude reference="guk-TC-zRa"/>
+                                <exclude reference="gu9-ww-0Wt"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -112,6 +122,7 @@
                                 <include reference="Xan-Tv-lQf"/>
                                 <include reference="9aK-pp-VOZ"/>
                                 <include reference="guk-TC-zRa"/>
+                                <include reference="gu9-ww-0Wt"/>
                             </mask>
                         </variation>
                     </view>
@@ -120,6 +131,7 @@
                         <outlet property="enterNameTextField" destination="Xan-Tv-lQf" id="IPD-gn-c9E"/>
                         <outlet property="mailButton" destination="guk-TC-zRa" id="mMq-vP-7AM"/>
                         <outlet property="messageLabel" destination="BpU-0G-cKZ" id="nlb-zC-Iu7"/>
+                        <outlet property="nameLabel" destination="gu9-ww-0Wt" id="cL5-tB-X3X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
